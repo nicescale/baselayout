@@ -11,8 +11,8 @@ root ALL=(ALL) ALL
 ## enable passwordless access for sudo
 %sudo ALL=(ALL) NOPASSWD: ALL
 
-## the core user has no password by default
-core ALL=(ALL) NOPASSWD: ALL
+## the cos user has no password by default
+cos ALL=(ALL) NOPASSWD: ALL
 
 ## Read drop-in files from /etc/sudoers.d
 ## (the '#' here does not indicate a comment)
