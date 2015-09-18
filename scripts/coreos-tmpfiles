@@ -9,7 +9,7 @@ ROOT="${1:-$ROOT}"
 BASE="${ROOT}/usr/share/baselayout"
 
 # Users/Groups to copy so they can be modified
-COPY_USERS="root|cos"
+COPY_USERS="root|cos|core"
 COPY_GROUPS="docker|sudo|wheel"
 
 # readable files
