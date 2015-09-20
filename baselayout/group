@@ -8,7 +8,7 @@ disk:x:6:root,adm
 lp:x:7:lp
 mem:x:8:
 kmem:x:9:
-wheel:x:10:root,core
+wheel:x:10:root,core,cos
 floppy:x:11:root
 news:x:13:news
 uucp:x:14:uucp
@@ -32,7 +32,7 @@ sshd:x:204:
 tcpdump:x:215:
 dhcp:x:224:
 etcd:x:232:
-docker:x:233:core
+docker:x:233:core,cos
 tlsdate:x:234:
 polkitd:x:235:
 systemd-journal-upload:x:241:
@@ -42,10 +42,11 @@ systemd-network:x:244:
 systemd-resolve:x:245:
 systemd-bus-proxy:x:246:
 systemd-journal-gateway:x:247:
-systemd-journal:x:248:core
+systemd-journal:x:248:core,cos
 dialout:x:249:
-portage:x:250:core
+portage:x:250:core,cos
 utmp:x:406:
 core:x:500:
+cos:x:501
 nogroup:x:65533:
 nobody:x:65534:
